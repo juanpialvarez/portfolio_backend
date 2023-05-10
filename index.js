@@ -9,7 +9,7 @@ const app = express();
 const pool = createPool({
   host: 'localhost',
   user: 'root',
-  password: 'Endondeestaelgnomo1@',
+  password: '',
   database: 'contacts',
   connectionLimit: 10,
 });
